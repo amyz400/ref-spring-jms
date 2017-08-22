@@ -15,5 +15,4 @@ Note - here is my spring boot project's application.properties activemq setup:
 spring.activemq.broker-url=tcp://127.0.0.1:61616
 spring.activemq.user=admin
 spring.activemq.password=admin
-# need this property to avoid exception regarding serializion of untrusted objects
-spring.activemq.packages.trust-all=true
+spring.activemq.packages.trust-all=true -- need this property to avoid exception regarding serializion of untrusted objects
